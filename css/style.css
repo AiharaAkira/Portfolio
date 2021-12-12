@@ -1,0 +1,132 @@
+body{
+    margin: 0 auto;
+    background-color: goldenrod;
+}
+
+#first{
+   
+    height: 280px;
+
+    text-align: center;
+    
+    
+    position: relative;
+}
+
+
+#first::before{
+    content: "";
+    background: url(https://img.lovepik.com/photo/50063/8793.jpg_wh860.jpg);
+    background-size: cover;
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1;
+
+
+}
+
+
+
+#f_title{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#f_greeting{
+    font-size: 25px;
+    color: whitesmoke;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+}
+
+.titles{
+    color: cornflowerblue;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+}
+
+.a_semiTitles{
+    color: cornflowerblue;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#aboutMe{
+    font-size: 25px;
+    background-color: white;
+    text-align: center;
+    height: 600px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+}
+
+#skills{
+    font-size: 20px;
+    font-weight: bold;
+    height: 500px;
+    background-color: aquamarine;
+    margin-bottom: 50px;
+    text-align: center;
+    
+    
+}
+
+
+.s_tbl{
+    
+    width: 33%;
+    height: 300px;
+    float: left;
+}
+
+.s_tbl div img{
+    width: 50px;
+}
+
+
+
+.s_tbl div {
+    font-size: 40px;
+}
+
+.s_tbl p {
+    color: black;
+}
+
+
+
+
+
+#projects{
+    
+    margin-top: 5px;
+    text-align: center;
+    
+    
+}
+
+.p_boxs{
+    
+    margin: 5px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 49%;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.p_semiTitles{
+    font-weight: bold;
+    font-size: 20px;
+}
