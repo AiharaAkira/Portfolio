@@ -147,6 +147,20 @@ body{
     
 }
 
+#profile_pack{
+    margin-top: 60px;
+}
+
+#profile1{
+    width: 50%;
+    float: left;
+}
+
+#profile2{
+    width: 50%;
+    float: right;
+}
+
 #skills{
     font-size: 20px;
     font-weight: bold;
