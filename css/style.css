@@ -83,9 +83,10 @@ body{
 
 #f_title{
     color: white;
-    font-size: 40px;
-    font-weight: bold;
+    
     margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 4rem;
 }
 
 #f_greeting{
@@ -149,7 +150,7 @@ body{
 #skills{
     font-size: 20px;
     font-weight: bold;
-    height: 600px;
+    height: 650px;
     background-color: aquamarine;
     margin-bottom: 50px;
     text-align: center;
