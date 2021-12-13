@@ -1,6 +1,6 @@
 body{
     margin: 0 auto;
-    background-color: goldenrod;
+    background-color: #f9c51d;
 }
 
 
@@ -104,7 +104,7 @@ body{
 }
 
 .titles{
-    color: cornflowerblue;
+    color: black;
     
     margin-bottom: 20px;
     border-bottom-width: 1px;
@@ -113,7 +113,7 @@ body{
     font-weight: 800;
     font-size: 3rem;
     line-height: 1.5;
-    border-bottom-color: cornflowerblue;
+    border-bottom-color: black;
     width: 350px;
     height: 72px;
 
@@ -178,20 +178,54 @@ body{
 
 .s_tbl{
     
-    width: 33%;
-    height: 300px;
+    width: 32%;
+    height: 550px;
     float: left;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
+    
+}
+
+.s_tbl_vc{
+    width: 27%;
+    height: 200px;
+    float: right;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
 }
 
 .s_tbl div img{
     width: 100px;
+    
 }
+
 
 .s_tbl div img:hover{
     width: 120px;
 }
 
+.s_tbl_vc img {
+    width: 100px;
+}
 
+
+.s_tbl_vc img:hover {
+    width: 120px;
+}
+
+#react_img{
+    width: 200px;
+}
+
+#react_img:hover{
+    width: 220px;
+}
 
 .s_tbl div {
     font-size: 40px;
