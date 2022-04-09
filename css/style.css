@@ -1,6 +1,6 @@
 body{
     margin: 0 auto;
-    background-color: #f9c51d;
+    background-color: burlywood;
 }
 
 
@@ -21,8 +21,8 @@ body{
     
         display: inline-block;
         font-weight: 700;
-        font-size: 1.5rem;
-        color: hsla(0,0%,100%,.7);
+        font-size: 15px;
+        color: white;
         line-height: 2rem;
         cursor: pointer;
     
@@ -40,8 +40,8 @@ body{
         display: inline-block;
         padding: 0 1rem;
         font-weight: 700;
-        font-size: 1rem;
-        color: hsla(0,0%,100%,.7);
+        font-size: 15px;
+        color: white;
         line-height: 2rem;
         cursor: pointer;
     
@@ -50,10 +50,11 @@ body{
 
 
 #bg{
-    position: relative;
-    
+    margin: 0;
+    background-image: url(https://c.wallhere.com/photos/05/89/1680x1050_px_IT_Design-1230155.jpg!d);
+    background-size: cover;
 }
-
+/*
 #bg::before{
     content: "";
     background: url(https://c.wallhere.com/photos/05/89/1680x1050_px_IT_Design-1230155.jpg!d);
@@ -66,7 +67,7 @@ body{
     bottom: 0px;
     z-index: -1;
 }
-
+*/
 
 
 #first{
@@ -94,13 +95,13 @@ body{
 
 #f_greeting{
     
-    color: hsla(0,0%,100%,.7);
+    color: white;
     font-family: 'Noto Sans JP', sans-serif;
     
     text-align: center;
     height: 200px;
     font-weight: 700;
-        font-size: 1.5rem;
+        font-size: 30px;
 }
 
 .titles{
