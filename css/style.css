@@ -51,10 +51,11 @@ body{
 
 #bg{
     margin: 0;
-    background-image: url(https://c.wallhere.com/photos/05/89/1680x1050_px_IT_Design-1230155.jpg!d);
+    
     background-size: cover;
+    
 }
-/*
+
 #bg::before{
     content: "";
     background: url(https://c.wallhere.com/photos/05/89/1680x1050_px_IT_Design-1230155.jpg!d);
@@ -67,7 +68,7 @@ body{
     bottom: 0px;
     z-index: -1;
 }
-*/
+
 
 
 #first{
@@ -168,7 +169,7 @@ body{
 #skills{
     font-size: 20px;
     font-weight: bold;
-    
+    height: 700px;
     background-color: aquamarine;
     margin-bottom: 50px;
     text-align: center;
