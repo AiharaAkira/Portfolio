@@ -1,62 +1,62 @@
-body{
+body {
     margin: 0 auto;
     background-color: #f9c51d;
 }
 
 
 
-#head{
-    
-        
-        
-        width: 100%;
-        max-width: 71.25rem;
-        height: 4.5rem;
-        padding: 1.25rem 2rem;
-        margin: 0 auto;
-    
+#head {
+
+
+
+    width: 100%;
+    max-width: 71.25rem;
+    height: 4.5rem;
+    padding: 1.25rem 2rem;
+    margin: 0 auto;
+
 }
 
-#h_title{
-    
-        display: inline-block;
-        font-weight: 700;
-        font-size: 15px;
-        color: white;
-        line-height: 2rem;
-        cursor: pointer;
-    
+#h_title {
+
+    display: inline-block;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+    line-height: 2rem;
+    cursor: pointer;
+
 }
 
-#h_navi{
-    
-        float: right;
-        
-    
+#h_navi {
+
+    float: right;
+
+
 }
 
-.h_navi_menu{
-    
-        display: inline-block;
-        padding: 0 1rem;
-        font-weight: 700;
-        font-size: 15px;
-        color: white;
-        line-height: 2rem;
-        cursor: pointer;
-    
+.h_navi_menu {
+
+    display: inline-block;
+    padding: 0 1rem;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+    line-height: 2rem;
+    cursor: pointer;
+
 }
 
 
 
-#bg{
+#bg {
     margin: 0;
-    
+
     background-size: cover;
-    
+
 }
 
-#bg::before{
+#bg::before {
     content: "";
     background: url(https://c.wallhere.com/photos/05/89/1680x1050_px_IT_Design-1230155.jpg!d);
     background-size: cover;
@@ -71,13 +71,13 @@ body{
 
 
 
-#first{
-   
+#first {
+
     height: 280px;
 
     text-align: center;
-    
-    
+
+
     position: relative;
 }
 
@@ -86,32 +86,32 @@ body{
 
 
 
-#f_title{
+#f_title {
     color: white;
-    
+
     margin-bottom: 20px;
     font-weight: 800;
     font-size: 4rem;
 }
 
-#f_greeting{
-    
+#f_greeting {
+
     color: white;
     font-family: 'Noto Sans JP', sans-serif;
-    
+
     text-align: center;
     height: 200px;
     font-weight: 700;
-        font-size: 30px;
+    font-size: 30px;
 }
 
-.titles{
+.titles {
     color: black;
-    
+
     margin-bottom: 20px;
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    font-family: Black Han Sans,sans-serif;
+    font-family: Black Han Sans, sans-serif;
     font-weight: 800;
     font-size: 3rem;
     line-height: 1.5;
@@ -123,63 +123,63 @@ body{
     margin-right: auto;
 }
 
-.a_semiTitles{
+.a_semiTitles {
     color: cornflowerblue;
-    
+
     margin-top: 10px;
     margin-bottom: 0.5rem;
-        font-weight: 700;
-        font-size: 1.25rem;
+    font-weight: 700;
+    font-size: 1.25rem;
 }
 
-#aboutMe{
-    
+#aboutMe {
+
     background-color: white;
     text-align: center;
     height: 500px;
     font-family: 'Noto Sans JP', sans-serif;
-    
+
     font-weight: 400;
     font-size: 1rem;
-    
+
 }
 
-#aboutMe span{
-    
-        margin-bottom: 0.5rem;
-        font-weight: 700;
-        font-size: 1.25rem;
-    
+#aboutMe span {
+
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+
 }
 
-#profile_pack{
+#profile_pack {
     margin-top: 60px;
 }
 
-#profile1{
+#profile1 {
     width: 50%;
     float: left;
 }
 
-#profile2{
+#profile2 {
     width: 50%;
     float: right;
 }
 
-#skills{
+#skills {
     font-size: 20px;
     font-weight: bold;
     height: 700px;
     background-color: aquamarine;
     margin-bottom: 50px;
     text-align: center;
-    
-    
+
+
 }
 
 
-.s_tbl{
-    
+.s_tbl {
+
     width: 32%;
     height: 550px;
     float: left;
@@ -188,10 +188,10 @@ body{
     margin-left: 10px;
     margin-right: 10px;
     box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
-    
+
 }
 
-.s_tbl_vc{
+.s_tbl_vc {
     width: 27%;
     height: 200px;
     float: right;
@@ -202,13 +202,13 @@ body{
     box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
 }
 
-.s_tbl div img{
+.s_tbl div img {
     width: 100px;
-    
+
 }
 
 
-.s_tbl div img:hover{
+.s_tbl div img:hover {
     width: 120px;
 }
 
@@ -221,11 +221,11 @@ body{
     width: 120px;
 }
 
-#react_img{
+#react_img {
     width: 200px;
 }
 
-#react_img:hover{
+#react_img:hover {
     width: 220px;
 }
 
@@ -241,29 +241,136 @@ body{
 
 
 
-#projects{
-    
+#projects {
+
     margin-top: 5px;
     text-align: center;
-    
-    
+
+
 }
 
-.p_boxs{
-    
+.p_boxs {
+
     margin: 5px;
     background-color: aliceblue;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    
+
     width: 500px;
     border-radius: 10px;
     height: 400px;
     box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
 }
 
-.p_semiTitles{
+.p_semiTitles {
     font-weight: bold;
     font-size: 20px;
+}
+
+
+
+@media (max-width: 767px) {
+    #f_title {
+        color: white;
+    
+        margin-bottom: 20px;
+        font-weight: 800;
+        font-size: 40px;
+    }
+    
+    #f_greeting {
+    
+        color: white;
+        font-family: 'Noto Sans JP', sans-serif;
+    
+        text-align: center;
+        height: 200px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .titles {
+        color: black;
+    
+        margin-bottom: 20px;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        font-family: Black Han Sans, sans-serif;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 1.5;
+        border-bottom-color: black;
+        width: 350px;
+        height: 72px;
+    
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .s_tbl {
+
+        width: 30%;
+        height: 550px;
+        float: left;
+        background-color: aliceblue;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
+    
+    }
+    
+    .s_tbl_vc {
+        width: 27%;
+        height: 200px;
+        float: right;
+        background-color: aliceblue;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
+    }
+    
+    .s_tbl div img {
+        width: 100px;
+    
+    }
+    
+    
+    .s_tbl div img:hover {
+        width: 120px;
+    }
+    
+    .s_tbl_vc img {
+        width: 100px;
+    }
+    
+    
+    .s_tbl_vc img:hover {
+        width: 105px;
+    }
+
+    #react_img {
+        width: 150px;
+    }
+    
+    #react_img:hover {
+        width: 155px;
+    }
+
+    #bg::before {
+        content: "";
+        background: url(https://c.wallhere.com/photos/05/89/1680x1050_px_IT_Design-1230155.jpg!d);
+        background-size: cover;
+        opacity: 0.4;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        height: 700px;
+        z-index: -1;
+
+    }
 }
