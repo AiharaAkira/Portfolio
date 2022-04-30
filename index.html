@@ -11,24 +11,24 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
     <script>
-        function fnMove(seq){
-            var offset = $("#"+seq).offset();
-            $('html, body').animate({scrollTop : offset.top}, 400);
+        function fnMove(seq) {
+            var offset = $("#" + seq).offset();
+            $('html, body').animate({ scrollTop: offset.top }, 400);
         }
     </script>
-  
-  
 
-  
+
+
+
 </head>
 
 <body>
     <div id="bg">
 
         <div id="head">
-            <div id="h_title" onclick="location.href='#'" >HOME</div>
+            <div id="h_title" onclick="location.href='#'">HOME</div>
             <div id="h_navi">
-                <div class="h_navi_menu" id="h_navi_menu1" onclick="fnMove('aboutMe')" >ABOUTME</div>
+                <div class="h_navi_menu" id="h_navi_menu1" onclick="fnMove('aboutMe')">ABOUTME</div>
                 <div class="h_navi_menu" id="h_navi_menu2" onclick="fnMove('skills')">SKILLS</div>
                 <div class="h_navi_menu" id="h_navi_menu3" onclick="fnMove('projects')">PROJECTS</div>
             </div>
