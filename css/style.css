@@ -169,7 +169,7 @@ body {
 #skills {
     font-size: 20px;
     font-weight: bold;
-    height: 700px;
+    height: 800px;
     background-color: aquamarine;
     margin-bottom: 50px;
     text-align: center;
@@ -181,7 +181,7 @@ body {
 .s_tbl {
 
     width: 32%;
-    height: 550px;
+    height: 650px;
     float: left;
     background-color: aliceblue;
     border-radius: 10px;
@@ -311,7 +311,7 @@ body {
     .s_tbl {
 
         width: 30%;
-        height: 550px;
+        height: 650px;
         float: left;
         background-color: aliceblue;
         border-radius: 10px;
@@ -323,7 +323,7 @@ body {
     
     .s_tbl_vc {
         width: 27%;
-        height: 200px;
+        height: 210px;
         float: right;
         background-color: aliceblue;
         border-radius: 10px;
