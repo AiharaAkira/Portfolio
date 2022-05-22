@@ -10,19 +10,23 @@ body {
 
 
     width: 100%;
-    max-width: 71.25rem;
-    height: 4.5rem;
-    padding: 1.25rem 2rem;
-    margin: 0 auto;
+    height: 7%;
+    padding: 1.25rem 10px;
+    margin: 0px auto;
+    
+    position: fixed;
+    
 
 }
+
+
 
 #h_title {
 
     display: inline-block;
     font-weight: 700;
     font-size: 15px;
-    color: white;
+    color:black;
     line-height: 2rem;
     cursor: pointer;
 
@@ -35,13 +39,17 @@ body {
 
 }
 
+#h_navi_menu3{
+    margin-right: 30px;
+}
+
 .h_navi_menu {
 
     display: inline-block;
     padding: 0 1rem;
     font-weight: 700;
     font-size: 15px;
-    color: white;
+    color: black;
     line-height: 2rem;
     cursor: pointer;
 
@@ -49,12 +57,20 @@ body {
 
 
 
+  
+
+
+
+
+
 #bg {
     margin: 0;
-
+    padding-top: 7%;
     background-size: cover;
-
+    
 }
+
+
 
 #bg::before {
     content: "";
@@ -73,14 +89,15 @@ body {
 
 #first {
 
+
+    
     height: 280px;
 
     text-align: center;
 
 
-    position: relative;
+    
 }
-
 
 
 
@@ -88,7 +105,6 @@ body {
 
 #f_title {
     color: white;
-
     margin-bottom: 20px;
     font-weight: 800;
     font-size: 4rem;
@@ -98,7 +114,6 @@ body {
 
     color: white;
     font-family: 'Noto Sans JP', sans-serif;
-
     text-align: center;
     height: 200px;
     font-weight: 700;
@@ -107,7 +122,6 @@ body {
 
 .titles {
     color: black;
-
     margin-bottom: 20px;
     border-bottom-width: 1px;
     border-bottom-style: solid;
