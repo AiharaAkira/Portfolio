@@ -13,9 +13,10 @@ body {
     height: 5%;
     padding: 1.25rem 10px;
     margin: 0px auto;
-    
+    color: aliceblue;
     position: fixed;
     transition: height 1s;
+    
     
     
 
@@ -30,6 +31,7 @@ body {
     padding: 1.25rem 10px;
     margin: 0px auto;
     background-color: aliceblue;
+    color: black;
     position: fixed;
     
 
@@ -42,9 +44,9 @@ body {
     display: inline-block;
     font-weight: 700;
     font-size: 15px;
-    color:gray;
     line-height: 2rem;
     cursor: pointer;
+    margin-left: 10%;
 
 }
 
@@ -65,7 +67,7 @@ body {
     padding: 0 1rem;
     font-weight: 700;
     font-size: 15px;
-    color: gray;
+    
     line-height: 2rem;
     cursor: pointer;
 
@@ -73,7 +75,7 @@ body {
 
 
 
-  
+
 
 
 
@@ -153,7 +155,7 @@ body {
 
 #aboutMe {
 
-    background-color: white;
+    background-color: #C7E5FF;
     text-align: center;
     height: 500px;
     font-family: 'Noto Sans JP', sans-serif;
