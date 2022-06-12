@@ -58,7 +58,7 @@ body {
 
 }
 
-#h_navi_menu3{
+#h_navi_menu4{
     margin-right: 30px;
 }
 
@@ -396,7 +396,7 @@ body {
 #teamProjects{
     font-size: 20px;
     font-weight: bold;
-    height: 600px;
+    height: 1200px;
     background-color: #212529;
     padding: 10px;
     text-align: center;
@@ -411,9 +411,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;
-    width: 500px;
+    width: 900px;
     border-radius: 10px;
-    height: 500px;
+    height: 1000px;
     box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
 }
 
@@ -421,8 +421,8 @@ body {
 #slide {
     position: relative;
     overflow: hidden;
-    width: 300px;
-    height: 300px;
+    width: 800px;
+    height: 800px;
     margin: 0 auto;
     border: 3px solid #f9c51d;
     border-radius: 5px;
@@ -431,30 +431,24 @@ body {
   #slide .cnt > li {
     position: absolute;
     top: 0;
-    left: 300px;
-    width: 300px;
-    height: 300px;
+    left: 800px;
+    width: 800px;
+    height: 800px;
     text-align: center;
     font-size: 30px;
-    line-height: 300px;
+    line-height: 800px;
     color: #fff;
+  }
+
+  #slide .cnt > li img{
+    width: 100%;
+    height: 100%;
   }
   
   #slide .cnt > li:nth-child(1) {
     background-color: red;
   }
   
-  #slide .cnt > li:nth-child(2) {
-    background-color: orange;
-  }
-  
-  #slide .cnt > li:nth-child(3) {
-    background-color: green;
-  }
-  
-  #slide .cnt > li:nth-child(4) {
-    background-color: blue;
-  }
   
   #slide .btn > button {
     position: absolute;
@@ -462,7 +456,7 @@ body {
     transform: translateY(-50%);
     border: 0;
     padding: 5px;
-    background-color: #fff;
+    background-color: #839AA8;
     border-radius: 5px;
   }
   
@@ -481,7 +475,7 @@ body {
     right: 5px;
     border: 0;
     padding: 5px;
-    background-color: #fff;
+    background-color: #839AA8;
     border-radius: 5px;
   }
   
@@ -506,12 +500,12 @@ body {
     width: 12px;
     height: 12px;
     cursor: pointer;
-    opacity: 0.5;
+    opacity: 0;
     background-color: #fff;
   }
   
   #slide .indi > li.on {
-    opacity: 1;
+    opacity: 0;
   }
   
   #slide .indi > li:first-child {
