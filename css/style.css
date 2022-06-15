@@ -320,6 +320,8 @@ body {
 
 
 @media (max-width: 767px) {
+
+   
     #f_title {
         color: rgb(59, 53, 53);
     
@@ -394,7 +396,7 @@ body {
     
     font-size: 20px;
     font-weight: bold;
-    height: 1200px;
+    height: 1600px;
     background-color: #212529;
     padding: 10px;
     text-align: center;
@@ -410,9 +412,25 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;
-    width: 90%;
+    width: 600px;
     border-radius: 10px;
-    height: 900px;
+    height: 600px;
+    box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
+   
+
+}
+
+.p_boxs_big2{
+
+    margin: 5px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 600px;
+    border-radius: 10px;
+    height: 750px;
     box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
    
 
@@ -423,8 +441,8 @@ body {
 
     position: relative;
     overflow: hidden;
-    width: 90%;
-    height: 90%;
+    width: 500px;
+    height: 400px;
     margin: 0 auto;
     border: 3px solid #f9c51d;
     border-radius: 5px;
@@ -434,12 +452,12 @@ body {
   #slide .cnt > li {
     position: absolute;
     top: 0;
-    left: 100%;
-    width: 100%;
-    height: 100%;
+    left: 500px;
+    width: 500px;
+    height: 400px;
     text-align: center;
     font-size: 30px;
-    line-height: 100%;
+    line-height: 400px;
     color: #fff;
   }
 
@@ -448,7 +466,7 @@ body {
     height: 100%;
   }
   
-  #slide .cnt > li:nth-child(1) {
+  #slide2 .cnt > li:nth-child(1) {
     background-color: red;
   }
   
@@ -512,5 +530,103 @@ body {
   }
   
   #slide .indi > li:first-child {
+    margin-left: 0;
+  }
+
+  /*slide2*/
+
+  #slide2 {
+
+    position: relative;
+    overflow: hidden;
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    border: 3px solid #f9c51d;
+    border-radius: 5px;
+    
+}
+  
+  #slide2 .cnt > li {
+    position: absolute;
+    top: 0;
+    left: 500px;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 400px;
+    color: #fff;
+  }
+
+  #slide2 .cnt > li img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  #slide2 .cnt > li:nth-child(1) {
+    background-color: red;
+  }
+  
+  
+  #slide2 .btn > button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 0;
+    padding: 5px;
+    background-color: #839AA8;
+    border-radius: 5px;
+  }
+  
+  #slide2 .btn .prev {
+    left: 5px;
+  }
+  
+  #slide2 .btn .next {
+    right: 5px;
+  }
+  
+  #slide2 .auto > button {
+    display: none;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    border: 0;
+    padding: 5px;
+    background-color: #839AA8;
+    border-radius: 5px;
+  }
+  
+  #slide2 .indi {
+    position: absolute;
+    bottom: 10px;
+    left: 45%;
+    transform: translateX(-50%);
+    list-style: none;
+  }
+  
+  #slide2 .indi:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  #slide2 .indi > li {
+    float: left;
+    margin-left: 5px;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    opacity: 0;
+    background-color: #fff;
+  }
+  
+  #slide2 .indi > li.on {
+    opacity: 0;
+  }
+  
+  #slide2 .indi > li:first-child {
     margin-left: 0;
   }
