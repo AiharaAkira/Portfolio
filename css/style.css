@@ -172,7 +172,7 @@ body {
 }
 
 #aboutMe {
-
+    
     background-color: #C7E5FF;
     text-align: center;
     height: 500px;
@@ -208,11 +208,12 @@ body {
 #skills {
     font-size: 20px;
     font-weight: bold;
-    height: 800px;
+   
+    height: 1000px;
     background-color: aquamarine;
     margin-bottom: 50px;
     text-align: center;
-    padding: auto;
+    
     
 
 }
@@ -220,19 +221,21 @@ body {
 
 .s_tbl {
 
-    width: 20%;
-    height: 500px;
+    width: 30%;
+    height: 800px;
     float: left;
     background-color: aliceblue;
-    border-radius: 10px;
-    
+    border-radius: 10px; 
     margin-right: 10px;
     box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
     padding-bottom: 5%;
 }
 
 #s_tbl_wrap{
-    margin-left: 25%;
+   
+  padding-left: 15%;
+  padding-right: 10%;
+  
 }
 
 
@@ -241,6 +244,33 @@ body {
    
 }
 
+.s_tbl_img_back{
+    width: 30%;
+    margin-top: 5%;
+   
+}
+
+.s_tbl_img_fornt{
+    width: 30%;
+    margin-top: 10%;
+}
+
+.s_tbl_img_etc{
+    width: 30%;
+    margin-top: 20%;
+}
+
+#s_tbl_css{
+    width: 55%;
+}
+
+#s_tbl_python{
+    width: 20%;
+}
+
+#s_tbl_tomcat{
+    width: 20%;
+}
 
 
 
@@ -260,7 +290,7 @@ body {
 
 
 #projects {
-
+    
     margin-top: 5px;
     text-align: center;
 
@@ -288,9 +318,10 @@ body {
 
 
 
+
 @media (max-width: 767px) {
     #f_title {
-        color: white;
+        color: rgb(59, 53, 53);
     
         margin-bottom: 20px;
         font-weight: 800;
@@ -326,56 +357,7 @@ body {
         margin-right: auto;
     }
 
-    .s_tbl {
-
-        width: 20%;
-        height: 650px;
-        float: left;
-        background-color: aliceblue;
-        border-radius: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
-        box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
-    
-    }
-    
-    .s_tbl_vc {
-        width: 27%;
-        height: 210px;
-        float: right;
-        background-color: aliceblue;
-        border-radius: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
-        box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
-    }
-    
-    .s_tbl div img {
-        width: 90%;
-    
-    }
-    
-    
-    .s_tbl div img:hover {
-        width: 95%;
-    }
-    
-    .s_tbl_vc img {
-        width: 100px;
-    }
-    
-    
-    .s_tbl_vc img:hover {
-        width: 105px;
-    }
-
-    #react_img {
-        width: 150px;
-    }
-    
-    #react_img:hover {
-        width: 155px;
-    }
+  
 
     #bg::before {
         content: "";
@@ -391,9 +373,25 @@ body {
         z-index: -1;
 
     }
+
+    #head:hover {
+
+
+    
+        width: 100%;
+        height: 10%;
+        padding: 1.25rem 10px;
+        margin: 0px auto;
+        background-color: aliceblue;
+        color: black;
+        position: fixed;
+        
+    
+    }
 }
 
 #teamProjects{
+    
     font-size: 20px;
     font-weight: bold;
     height: 1200px;
@@ -405,38 +403,43 @@ body {
 }
 
 .p_boxs_big{
+
     margin: 5px;
     background-color: aliceblue;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;
-    width: 900px;
+    width: 90%;
     border-radius: 10px;
-    height: 1000px;
+    height: 900px;
     box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
+   
+
 }
 
 
 #slide {
+
     position: relative;
     overflow: hidden;
-    width: 800px;
-    height: 800px;
+    width: 90%;
+    height: 90%;
     margin: 0 auto;
     border: 3px solid #f9c51d;
     border-radius: 5px;
-  }
+    
+}
   
   #slide .cnt > li {
     position: absolute;
     top: 0;
-    left: 800px;
-    width: 800px;
-    height: 800px;
+    left: 100%;
+    width: 100%;
+    height: 100%;
     text-align: center;
     font-size: 30px;
-    line-height: 800px;
+    line-height: 100%;
     color: #fff;
   }
 
