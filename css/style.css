@@ -88,6 +88,7 @@ body {
     background: url(https://c.wallhere.com/photos/05/89/1680x1050_px_IT_Design-1230155.jpg!d);
     background-size: cover;
     
+    
 }
 
 
@@ -99,7 +100,7 @@ body {
 
 
     
-    height: 280px;
+    height: 450px;
 
     text-align: center;
 
@@ -172,10 +173,10 @@ body {
 }
 
 #aboutMe {
-    
+    padding-top: 15%;
     background-color: #C7E5FF;
     text-align: center;
-    height: 500px;
+    height: 800px;
     font-family: 'Noto Sans JP', sans-serif;
 
     font-weight: 400;
